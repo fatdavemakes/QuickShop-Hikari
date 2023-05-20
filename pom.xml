@@ -226,7 +226,7 @@
                     <version>3.5.0</version>
                     <configuration>
                         <encoding>UTF-8</encoding>
-                        <excludePackageNames>com.ghostchu.quickshop.nonquickshopstuff.*</excludePackageNames>
+                        <excludePackageNames>*</excludePackageNames>
                         <release>${java.version}</release>
                     </configuration>
                     <executions>
@@ -453,11 +453,11 @@
         <module>platform/quickshop-platform-paper</module>
         <module>quickshop-bukkit</module>
         <module>compatibility/common</module>
-        <module>compatibility/bungeecord</module>
+<!--         <module>compatibility/bungeecord</module>
         <module>compatibility/velocity</module>
-        <module>compatibility/clearlag</module>
+        <module>compatibility/clearlag</module>-->
         <!--        <module>compatibility/nocheatplus</module>-->
-        <module>compatibility/worldguard</module>
+ <!--        <module>compatibility/worldguard</module>
         <module>compatibility/worldedit</module>
         <module>compatibility/openinv</module>
         <module>compatibility/advancedregionmarket</module>
@@ -468,16 +468,18 @@
         <module>compatibility/plotsquared</module>
         <module>compatibility/lands</module>
         <module>compatibility/residence</module>
-        <module>compatibility/elitemobs</module>
+        <module>compatibility/elitemobs</module>-->
 <!--        <module>compatibility/chestprotect</module>-->
-        <module>addon/discordsrv</module>
+<!--        <module>addon/discordsrv</module>
         <module>addon/plan</module>
         <module>addon/discount</module>
+        -->
         <module>addon/list</module>
-        <module>addon/shopitemonly</module>
+<!--        <module>addon/shopitemonly</module>
         <module>addon/limited</module>
         <module>addon/dynmap</module>
-        <module>addon/bluemap</module>
+        <module>addon/bluemap</module> -->
+        <module>addon/jsongenerator</module>
     </modules>
 
 </project>
